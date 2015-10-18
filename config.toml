@@ -1,0 +1,30 @@
+baseurl = "http://vjeantet.fr/"
+languageCode = "en-GB"
+title = "Sointers"
+paginate = 5
+DisqusShortname = "vjeantet"
+Copyright = "All rights reserved - 2015"
+theme = "casper"
+[params]
+  description = "Oculi omnium in te sperant, Domine, et tu das illis cibum in tempore, aperis manum tuam, et imples omne animal benedictione."
+  cover = "images/adam.jpg"
+  author = "Boaz Sobrado"
+  authorlocation = "Budapest, Hungary"
+  authorwebsite = "http://vjeantet.fr"
+  bio= "Mathematics."
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-79101-12"
+  githubName = "sointers"
+  twitterName = "sointers"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"

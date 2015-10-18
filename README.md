@@ -1,2 +1,2 @@
-# website
-the code for our website
+# vjeantet.fr
+my blog
