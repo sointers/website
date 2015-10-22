@@ -1,6 +1,6 @@
 baseurl = "http://vjeantet.fr/"
 languageCode = "en-GB"
-title = "Sointers"
+title = "Sointer"
 paginate = 5
 DisqusShortname = "vjeantet"
 Copyright = "All rights reserved - 2015"
