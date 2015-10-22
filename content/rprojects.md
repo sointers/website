@@ -1,14 +1,14 @@
 +++
 date = "2006-08-30T03:45:00+02:00"
 draft = false
-title = "Sécurité"
+title = "R Projects"
 type = "page"
 layout = "cover"
 
 [menu.main]
-name="Securité"
+name="R Projects"
 pre = "<h3>Topics</h3>"
-identifier="securite"
+identifier="r_projects"
 +++
 
-Des ressources et des notes liées à la sécurité informatique.
+“Those who believe in telekinetics, raise my hand.” 
