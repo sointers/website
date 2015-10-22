@@ -1,10 +1,12 @@
 #!/bin/bash
 
-echo -e "\033[0;32mDeploying updates to AppEngine...\033[0m"
+echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the project. 
-hugo
+# Build the project.
+hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
+# Go To Public folder
+cd public
 # Add changes to git.
 git add -A
 
@@ -15,8 +17,8 @@ if [ $# -eq 1 ]
 fi
 git commit -m "$msg"
 
-# Push source 
+# Push source and build repos.
 git push origin master
 
-# Deploy to AppEngine
-appcfg.py --oauth2 update public
+# Come Back
+cd ..
